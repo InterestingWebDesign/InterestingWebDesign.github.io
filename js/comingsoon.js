@@ -4,5 +4,6 @@ function buildPage() {
   var buildPage = setInterval(function() {
     document.getElementById("h1").innerHTML = "Interesting Web Design";
     document.getElementById("h2").innerHTML = "Coming soon";
+    clearInterval(buildPage);
   }, 10);
 }

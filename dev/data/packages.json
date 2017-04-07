@@ -1,0 +1,21 @@
+{
+  "packageData": {
+
+    "package1": {
+      "title": "This is a dummy title",
+      "description": "This is a dummy description",
+      "images": [
+        {
+          "1": "dummy1",
+          "2": "dummy2",
+          "3": "dummy3"
+        }
+      ]
+    },
+
+    "package2": {
+      "title": "This is another fake",
+      "description": "Who would've thought it's fake again?"
+    }
+  }
+}

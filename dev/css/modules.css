@@ -1,0 +1,51 @@
+.slide > .imgBack {
+  width: 40%;
+  min-height: 250px;
+  background: red;
+}
+
+.slide > .imgFront {
+  width: 40%;
+  min-height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  background-position: 500ms;
+}
+
+.slide > .textBack {
+  width: 70%;
+  min-height: 250px;
+  position: absolute;
+  right: -5%;
+  top: 0;
+  transform: skewX(15deg);
+  border-left: 8px solid #15909F;
+  background: url(../images/slidebackground.png);
+}
+
+.slide > .textFront {
+  width: 60%;
+  min-height: 250px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.slide > .textFront > .title {
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  color: #15909F;
+  font-size: 30px;
+}
+
+.slide > .textFront > .description {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}

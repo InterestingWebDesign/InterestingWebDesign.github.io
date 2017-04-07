@@ -2,3 +2,12 @@ body {
   margin: 0;
   height: 200vh;
 }
+
+.module {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  border-top: 3px solid #a8a8a8;
+  border-bottom: 3px solid #a8a8a8;
+  overflow: hidden;
+}

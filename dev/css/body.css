@@ -8,3 +8,21 @@
   left: 20vw;
   top: 200px;
 }
+
+h2 {
+  margin: 20px 0;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #15909F;
+  text-align: center;
+  padding: 0 20px;
+}
+
+p.bodyText {
+  margin: 0 0 15px 0;
+  padding: 0 20px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  color: #a8a8a8;
+}
